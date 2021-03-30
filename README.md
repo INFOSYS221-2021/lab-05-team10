@@ -66,3 +66,13 @@ else:
        n2 = nth
        count += 1
 print(n1)
+
+
+## Exercise 3
+n=int(input("Enter number:"))
+count=0
+while(n>0):
+    count=count+1
+    n=n//10
+print("The number of digits in the number are:",count)
+
