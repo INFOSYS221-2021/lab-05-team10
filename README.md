@@ -41,16 +41,16 @@ public class ExerciseOne {
     }
 }
 
-## Exercise 02
-## Program to display the Fibonacci sequence up to n-th term
+ Exercise 02
+ Program to display the Fibonacci sequence up to n-th term
 
 nterms = int(input("Which Position? "))
 
-# first two terms
+ first two terms
 n1, n2 = 0, 1
 count = 0
 
-# check if the number of terms is valid
+ check if the number of terms is valid
 if nterms <= 0:
    print("Please enter a positive integer")
 elif nterms == 1:
